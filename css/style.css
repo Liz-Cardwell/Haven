@@ -13,6 +13,10 @@ body {
   background: var(--haven-white);
 }
 
+img {
+  max-width: 100%;
+}
+
 nav {
   background: var(--haven-white);
   display: flex;
@@ -20,10 +24,6 @@ nav {
   padding: 2rem 3rem;
   align-items: center;
 }
-
-
-
-
 
 @media screen and (max-width:900px) {
   nav {
@@ -81,6 +81,18 @@ nav a {
   }
 }
 
+.hero {
+  background: var(--haven-black);
+  color: var(--haven-white);
+  padding: 4rem 3rem;
+  display: flex;
+}
+
+.shopall {
+  background: var(--haven-white);
+  color: var(--haven-black);
+}
+
 .atcbtn {
   border-radius: 12px;
   background: var(--haven-purple);
@@ -95,3 +107,16 @@ nav a {
     color: var(--haven-black);
   }
 }
+
+.reviews {
+  background: var(--haven-blue);
+  color: var(--haven-black);
+  display: flex;
+  }
+}
+
+footer {
+  background: var(--haven-white);
+  color: var(--haven-black);
+}
+
