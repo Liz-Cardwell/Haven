@@ -111,7 +111,21 @@ nav a {
 .reviews {
   background: var(--haven-blue);
   color: var(--haven-black);
+  padding: 14px 24px;
+  font-size: 20px;
   display: flex;
+  }
+}
+
+.blogbtn {
+  border-radius: 12px;
+  background: var(--haven-blue);
+  padding: 14px 24px;
+
+  &:hover {
+    background: var(--haven-purple);
+    text-decoration: none;
+    color: var(--haven-white);
   }
 }
 
