@@ -21,6 +21,17 @@ nav {
   align-items: center;
 }
 
+
+
+
+
+@media screen and (max-width:900px) {
+  nav {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -48,5 +59,39 @@ nav a {
     background: var(--haven-purple);
     text-decoration: none;
     color: var(--haven-white);
+  }
+}
+
+.shopallbtn {
+  border-radius: 12px;
+  background: var(--haven-blue);
+  padding: 14px 24px;
+
+  &:hover {
+    background: var(--haven-purple);
+    text-decoration: none;
+    color: var(--haven-white);
+  }
+}
+
+@media screen and (max-width:900px) {
+  h1 {
+    font-family: "Ysabeau SC", sans-serif;
+    font-size: 40px;
+  }
+}
+
+.atcbtn {
+  border-radius: 12px;
+  background: var(--haven-purple);
+  padding: 14px 24px;
+  font-size: 20px;
+  color: var(--haven-white);
+  text-decoration: none;
+
+  &:hover {
+    background: var(--haven-blue);
+    text-decoration: none;
+    color: var(--haven-black);
   }
 }
