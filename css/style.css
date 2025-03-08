@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+
 :root {
   --haven-blue: #ADCCD4;
   --haven-purple: #8F559C;
   --haven-black: #2E2F30;
   --haven-white: #EDE8E6;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
 
 body {
   font-family: "Ysabeau SC", sans-serif;
